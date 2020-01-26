@@ -17,7 +17,7 @@ export class TasksService {
     let tasks = this.getTasks();
 
     if (status) {
-      tasks = tasks.filter(task => task.status === status); 
+      tasks = tasks.filter(task => task.status === status);
     }
 
     if (search) {
